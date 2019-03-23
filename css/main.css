@@ -1211,7 +1211,9 @@ header .logo a {
 }
 .menu-toggle.is-clicked span::after {
 	bottom: 0;
-	
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 /* navigation panel */
